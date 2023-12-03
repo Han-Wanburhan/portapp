@@ -1,0 +1,19 @@
+.Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 18px;
+  outline-color: white;
+  outline-width: 10px;
+  text-align: center;
+  border: 1px solid silver;
+  width: 15%;
+  margin-bottom: 1%;
+  border-radius: 5%;
+  background: rgba(153, 153, 153, 0.2);
+  color: #777;
+}
+.Content p {
+  font-size: 1rem;
+  font-weight: 600;
+}

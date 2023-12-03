@@ -1,0 +1,44 @@
+.About-Conatainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+.About-Conatainer-Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.About-Conatainer-Bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+.About-Conatainer-Bottom-Left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0% 10% 0% 10%;
+  line-height: 1.5;
+}
+.About-Conatainer-Bottom-Right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin-right: 5%;
+}
+.About-Conatainer-Bottom-Right-Abilities {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 0% 1%;
+}
+.About-Conatainer-Bottom-Right-Skills {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 1%;
+}

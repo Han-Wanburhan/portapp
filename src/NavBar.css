@@ -8,25 +8,34 @@
 .NavBar-Left {
   display: flex;
   align-items: center;
-  margin: 1.5% 3%;
+  margin: 0% 3%;
 }
 img {
-  width: 100px;
+  width: 60px;
   border-radius: 50%;
 }
 .NavBar-Left-Name {
   margin-left: 10%;
 }
+.NavBar-Right-Content h2 {
+  cursor: pointer;
+}
 .Myname-h2 {
   text-align: center;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .NavBar-Right {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  margin: 1.5% 3%;
+  margin: 1.5% 4%;
   width: 40%;
 }
-.NavBar-Right h2 {
-  padding: 0% 5%;
+.NavBar-Right .NavBar-Right-Content {
+  padding: 0% 3%;
+}
+.NavBar-Right-Content a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }

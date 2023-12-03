@@ -1,33 +1,6 @@
-.Home-Conatainer {
-  width: 100%;
-  height: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Home-Content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.Home-side {
-  position: absolute;
-  left: 0;
-  margin-left: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 0;
-}
-
-.Home-Content-Button {
-  margin-top: 5%;
-}
-
 /* ----------------------------------- */
 /* CSS */
+
 .button-31 {
   background-color: #222;
   border-radius: 4px;
