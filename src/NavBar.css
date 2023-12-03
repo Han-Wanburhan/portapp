@@ -1,0 +1,32 @@
+.NavBar-Container {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background-color: aliceblue;
+}
+
+.NavBar-Left {
+  display: flex;
+  align-items: center;
+  margin: 1.5% 3%;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+.NavBar-Left-Name {
+  margin-left: 10%;
+}
+.Myname-h2 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.NavBar-Right {
+  display: flex;
+  align-items: center;
+  margin: 1.5% 3%;
+  width: 40%;
+}
+.NavBar-Right h2 {
+  padding: 0% 5%;
+}
