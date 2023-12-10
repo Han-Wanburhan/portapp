@@ -1,6 +1,6 @@
 import "./NavBar.css";
 import image from "./image/Han.jpg";
-import { Link, Element } from "react-scroll";
+import { Link } from "react-scroll";
 function NavBar() {
   return (
     <div className="NavBar-Container">

@@ -10,7 +10,7 @@
   align-items: center;
   margin: 0% 3%;
 }
-img {
+.NavBar-Left img {
   width: 60px;
   border-radius: 50%;
 }
