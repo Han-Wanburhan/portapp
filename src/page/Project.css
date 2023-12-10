@@ -1,0 +1,32 @@
+.Project-Conatainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Top-h3 {
+  color: rgb(96, 96, 96);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.Project-Container-Top {
+  text-align: center;
+  width: 45%;
+}
+.Project-Container-Bottom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.Project-Container-Bottom-Left {
+  width: 40%;
+}
+.Project-Container-Bottom-Right {
+  width: 35%;
+}
+.SpanContent {
+  color: rgb(96, 96, 96);
+  font-size: 1.5rem;
+  font-weight: 500;
+}

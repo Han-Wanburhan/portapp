@@ -24,7 +24,7 @@ function NavBar() {
           </Link>
         </div>
         <div className="NavBar-Right-Content">
-          <Link to="about" smooth={true} duration={1000} offset={-100}>
+          <Link to="project" smooth={true} duration={1000} offset={-100}>
             <h2>PROJECT</h2>
           </Link>
         </div>
