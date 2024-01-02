@@ -32,3 +32,9 @@
 .button-31:focus {
   opacity: 0.75;
 }
+
+.disabled {
+  opacity: 0.5; /* Example: reduce opacity for a visual indication */
+  cursor: not-allowed; /* Example: change cursor to not-allowed */
+  /* Add more styles as needed to visually indicate a disabled state */
+}

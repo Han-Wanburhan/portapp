@@ -3,6 +3,13 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Project from "../components/Project";
 import "./App.css";
+import {
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaGithubSquare,
+  FaLinkedin,
+} from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 const HomePage = () => {
   return (
     <div className="App-Container">
@@ -17,6 +24,62 @@ const HomePage = () => {
       </div>
       <div className="App-Project">
         <Project />
+      </div>
+      <div className="App-Contact" id="contact">
+        <div className="App-Contact-Content">
+          <br></br>
+          <h2>Han Wanburhan</h2>
+          <span>
+            I'm passionate about Software Engineering, Machine Learning,
+            Artificial Intelligence, and DevOps. I'm proactive in developing
+            relevant skills and knowledge and committed to applying enthusiasm
+            and dedication to contribute effectively 🚀
+          </span>
+          <br />
+          <hr style={{ width: "100%", border: "1px solid #ccc" }} />
+          <br />
+          <div className="Home-side-Social">
+            <a
+              href="https://www.facebook.com/HanWanburhan/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebookSquare size={70} color="#ffffff" />
+            </a>
+
+            <a
+              href="https://twitter.com/Han_Wanburhan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitterSquare size={70} color="#ffffff" />
+            </a>
+
+            <a
+              href="https://github.com/Han-Wanburhan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithubSquare size={70} color="#ffffff" />
+            </a>
+
+            <a
+              href="https://linkedin.com/in/wanburhan-wae-useng"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin size={70} color="#ffffff" />
+            </a>
+
+            <a
+              href="mailto:Wanburhan.W@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IoIosMail size={70} color="#ffffff" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

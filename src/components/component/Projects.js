@@ -1,4 +1,5 @@
 import Buttons from "../Button";
+import AbSk from "../AbSk";
 import "./Projects.css";
 const Projects = (project) => {
   return (
@@ -15,10 +16,25 @@ const Projects = (project) => {
         <span className="SpanContent">{project.project.Detail}</span>
         <br />
         <br />
+        <div className="used-stack">
+          {project.project.staked.map((item, index) => (
+            <AbSk key={index} children={item} />
+          ))}
+        </div>
         <br />
+
         <div className="button-link">
-          <Buttons children="Github" value={project.project.ID} />
-          <Buttons children="Youtube" value={project.project.ID} />
+          <Buttons
+            children="Github"
+            value={project.project.ID}
+            href={project.project.github_link}
+          />
+          <Buttons
+            children="Youtube"
+            value={project.project.ID}
+            href={project.project.youtube_link}
+            bgcolor="#e61919"
+          />
         </div>
       </div>
     </div>

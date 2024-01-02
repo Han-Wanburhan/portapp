@@ -29,7 +29,7 @@ function NavBar() {
           </Link>
         </div>
         <div className="NavBar-Right-Content">
-          <Link to="about" smooth={true} duration={1000} offset={-100}>
+          <Link to="contact" smooth={true} duration={1000} offset={-100}>
             <h2>CONTACT</h2>
           </Link>
         </div>

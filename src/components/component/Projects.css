@@ -1,4 +1,9 @@
 .button-link {
   display: flex;
-  justify-content: space-between;
+  gap: 11%;
+}
+
+.used-stack {
+  display: flex;
+  gap: 2%;
 }
