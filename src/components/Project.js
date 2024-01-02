@@ -1,5 +1,7 @@
 import "./Project.css";
-import image from "../image/Han.jpg";
+import WireFrame_IMG from "../image/Wireframe.png";
+import Gintuay_IGM from "../image/Gintuay.png";
+
 import Projects from "./component/Projects";
 const projectbodys = [
   {
@@ -9,7 +11,7 @@ const projectbodys = [
       web pages swiftly, enabling users to create and customize web
       interfaces efficiently. It enhances convenience in API testing,
       providing a clearer visualization of API results.`,
-    img: image,
+    img: Gintuay_IGM,
   },
   {
     ID: 2,
@@ -19,7 +21,7 @@ const projectbodys = [
             images. The system utilizes the Yolov5 and Yolov7 models for object
             detection on images and is proficient in converting images in
             various formats such as JPEG and PNG into HTML code.`,
-    img: image,
+    img: WireFrame_IMG,
   },
   {
     ID: 3,
@@ -28,7 +30,7 @@ const projectbodys = [
             Delivery System, developed using HTML, CSS, and ASP.NET
             technologies. The system is designed to facilitate seamless and
             efficient food ordering and delivery processes.`,
-    img: image,
+    img: Gintuay_IGM,
   },
 ];
 
