@@ -1,5 +1,5 @@
-import Buttons from "../components/Button";
-import AbSk from "../components/AbSk";
+import Buttons from "./Button";
+import AbSk from "./AbSk";
 import "./About.css";
 import Pdf from "../Wanburhan_CV.pdf";
 function About() {

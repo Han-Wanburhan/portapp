@@ -1,0 +1,21 @@
+.App-NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(218, 230, 230);
+  z-index: 1;
+}
+.App-Home {
+  margin-top: 6%;
+  width: 100%;
+  height: 860px;
+  background-color: rgb(156, 229, 213);
+}
+.App-About {
+  /* background-color: rgb(255, 230, 0); */
+  width: 100%;
+  height: 920px;
+}
+
+.App-Project {
+}

@@ -1,5 +1,6 @@
 import "./Home.css";
-import Buttons from "../components/Button";
+import Buttons from "./Button";
+import { Link } from "react-scroll";
 import {
   FaFacebookSquare,
   FaTwitterSquare,
@@ -66,7 +67,9 @@ function Home() {
           Engineering 💻|
         </h3>
         <div className="Home-Content-Button">
-          <Buttons children="PROJECT" />
+          <Link to="project" smooth={true} duration={1000} offset={-100}>
+            <Buttons children="PROJECT" />
+          </Link>
         </div>
       </div>
     </div>
