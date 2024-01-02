@@ -26,7 +26,7 @@ function About() {
             dedication to contribute effectively 🚀
           </p>
           <div className="About-Content-Button">
-            <Buttons href={Pdf} children="Resume!" />
+            <Buttons href={Pdf} children="Resume!" bgcolor="#222" />
           </div>
         </div>
         <div className="About-Conatainer-Bottom-Right">

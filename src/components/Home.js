@@ -68,7 +68,7 @@ function Home() {
         </h3>
         <div className="Home-Content-Button">
           <Link to="project" smooth={true} duration={1000} offset={-100}>
-            <Buttons children="PROJECT" />
+            <Buttons children="PROJECT" bgcolor="#222" />
           </Link>
         </div>
       </div>

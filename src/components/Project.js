@@ -1,6 +1,7 @@
 import "./Project.css";
 import WireFrame_IMG from "../image/Wireframe.png";
 import Gintuay_IGM from "../image/Gintuay.png";
+import Flexix_IGM from "../image/Flexix.png";
 
 import Projects from "./component/Projects";
 const projectbodys = [
@@ -11,7 +12,10 @@ const projectbodys = [
       web pages swiftly, enabling users to create and customize web
       interfaces efficiently. It enhances convenience in API testing,
       providing a clearer visualization of API results.`,
-    img: Gintuay_IGM,
+    img: Flexix_IGM,
+    github_link: "https://github.com/flexix-developer",
+    youtube_link: "",
+    stackUsed: ["React", "Golang", "Tailwind Css", "Mysql"],
   },
   {
     ID: 2,
@@ -22,6 +26,10 @@ const projectbodys = [
             detection on images and is proficient in converting images in
             various formats such as JPEG and PNG into HTML code.`,
     img: WireFrame_IMG,
+    github_link:
+      "https://github.com/Han-Wanburhan/Assigment_imageprocessing_wireframe.git",
+    youtube_link: "https://youtu.be/BO8Y9eAi7ag?si=RDXoFoQnqT0zd9od",
+    stackUsed: ["Python", "Yolov5", "Yolov7", "Flask"],
   },
   {
     ID: 3,
@@ -31,6 +39,9 @@ const projectbodys = [
             technologies. The system is designed to facilitate seamless and
             efficient food ordering and delivery processes.`,
     img: Gintuay_IGM,
+    github_link: "https://github.com/Han-Wanburhan/Webap-Projrct-Ginteow.git",
+    youtube_link: "",
+    stackUsed: ["HTML", "CSS", "Jquerye", "ASP.NET"],
   },
 ];
 
