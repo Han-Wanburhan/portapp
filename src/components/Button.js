@@ -1,21 +1,15 @@
 import React from "react";
 import "./Button.css";
 
-function Buttons({ href, children, value, bgcolor }) {
-  const handleClick = () => {};
-
+function Buttons({ href, children, value }) {
+  const handleClick = () => {
+    console.log(value);
+    // You can perform other actions here if needed
+  };
   return (
-    <a href={href} target="_blank" rel="noreferrer">
-      <button
-        className={`button-31 ${href === "" ? "disabled" : ""}`}
-        id={value}
-        onClick={handleClick}
-        style={{ backgroundColor: bgcolor }}
-        disabled={href === ""}
-      >
-        {children}
-      </button>
-    </a>
+    <button className="button-31" id={value} onClick={handleClick}>
+      {children}
+    </button>
   );
 }
 

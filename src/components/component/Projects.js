@@ -1,9 +1,6 @@
 import Buttons from "../Button";
-import AbSk from "../AbSk";
 import "./Projects.css";
 const Projects = (project) => {
-  const staked = project.project.stackUsed;
-
   return (
     <div className="Project-Container-Bottom">
       <div className="Project-Container-Bottom-Left">
@@ -18,28 +15,10 @@ const Projects = (project) => {
         <span className="SpanContent">{project.project.Detail}</span>
         <br />
         <br />
-        <div className="stack-used">
-          {staked.map((item, index) => (
-            <AbSk key={index} children={item} />
-          ))}
-        </div>
-
         <br />
-        <br />
-
         <div className="button-link">
-          <Buttons
-            children="Github"
-            value={project.project.ID}
-            bgcolor="#222"
-            href={project.project.github_link}
-          />
-          <Buttons
-            children="Youtube"
-            value={project.project.ID}
-            bgcolor="#dc0404"
-            href={project.project.youtube_link}
-          />
+          <Buttons children="Github" value={project.project.ID} />
+          <Buttons children="Youtube" value={project.project.ID} />
         </div>
       </div>
     </div>

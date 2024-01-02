@@ -17,25 +17,5 @@
   height: 920px;
 }
 
-.App-Contact {
-  margin-top: 5%;
-  background-color: black;
-  width: 100%;
-  height: 300px;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-.App-Contact-Content {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.social_contact {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 5%;
+.App-Project {
 }
