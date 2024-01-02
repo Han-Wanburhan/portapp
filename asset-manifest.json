@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portapp/static/css/main.fdc61b5f.css",
-    "main.js": "/portapp/static/js/main.1afe34ce.js",
+    "main.css": "/portapp/static/css/main.d7203ebd.css",
+    "main.js": "/portapp/static/js/main.37f4a037.js",
     "static/media/Wireframe.png": "/portapp/static/media/Wireframe.c777096916d1e8a2437a.png",
     "static/media/Gintuay.png": "/portapp/static/media/Gintuay.582b6a10bbb2a73da0ae.png",
     "static/media/Wanburhan_CV.pdf": "/portapp/static/media/Wanburhan_CV.d99986d12b41acfa5719.pdf",
+    "static/media/Flexix.png": "/portapp/static/media/Flexix.24e405159ed43f3dc2e4.png",
     "static/media/Han.jpg": "/portapp/static/media/Han.7763f83685f41eab4c74.jpg",
     "index.html": "/portapp/index.html",
-    "main.fdc61b5f.css.map": "/portapp/static/css/main.fdc61b5f.css.map",
-    "main.1afe34ce.js.map": "/portapp/static/js/main.1afe34ce.js.map"
+    "main.d7203ebd.css.map": "/portapp/static/css/main.d7203ebd.css.map",
+    "main.37f4a037.js.map": "/portapp/static/js/main.37f4a037.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdc61b5f.css",
-    "static/js/main.1afe34ce.js"
+    "static/css/main.d7203ebd.css",
+    "static/js/main.37f4a037.js"
   ]
 }
