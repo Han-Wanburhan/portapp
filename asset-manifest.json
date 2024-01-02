@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portapp/static/css/main.fdc61b5f.css",
+    "main.js": "/portapp/static/js/main.dc4a0c5d.js",
+    "static/media/Wireframe.png": "/portapp/static/media/Wireframe.c777096916d1e8a2437a.png",
+    "static/media/Gintuay.png": "/portapp/static/media/Gintuay.582b6a10bbb2a73da0ae.png",
+    "static/media/Wanburhan_CV.pdf": "/portapp/static/media/Wanburhan_CV.d99986d12b41acfa5719.pdf",
+    "static/media/Han.jpg": "/portapp/static/media/Han.7763f83685f41eab4c74.jpg",
+    "index.html": "/portapp/index.html",
+    "main.fdc61b5f.css.map": "/portapp/static/css/main.fdc61b5f.css.map",
+    "main.dc4a0c5d.js.map": "/portapp/static/js/main.dc4a0c5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdc61b5f.css",
+    "static/js/main.dc4a0c5d.js"
+  ]
+}
